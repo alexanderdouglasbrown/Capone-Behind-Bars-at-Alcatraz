@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CaponeViewControlleriPad">
+            <connections>
+                <outlet property="page0" destination="2" id="86"/>
+                <outlet property="page1" destination="28" id="83"/>
+                <outlet property="page10" destination="155" id="159"/>
+                <outlet property="page11" destination="160" id="164"/>
+                <outlet property="page12" destination="165" id="169"/>
+                <outlet property="page13" destination="170" id="174"/>
+                <outlet property="page14" destination="175" id="179"/>
+                <outlet property="page2" destination="105" id="111"/>
+                <outlet property="page3" destination="112" id="118"/>
+                <outlet property="page4" destination="119" id="137"/>
+                <outlet property="page5" destination="125" id="138"/>
+                <outlet property="page6" destination="131" id="139"/>
+                <outlet property="page7" destination="140" id="144"/>
+                <outlet property="page8" destination="145" id="149"/>
+                <outlet property="page9" destination="150" id="154"/>
+                <outlet property="swipeLabel" destination="15" id="180"/>
+                <outlet property="view" destination="84" id="85"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="84" userLabel="DefaultView">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2" userLabel="page0">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="caponetitle.jpg" id="5">
+                            <rect key="frame" x="0.0" y="0.0" width="498" height="960"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="11">
+                            <rect key="frame" x="721" y="921" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="bCredits" destination="-2" eventType="touchUpInside" id="16"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Behind Bars" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="12">
+                            <rect key="frame" x="313" y="139" width="426" height="84"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="72"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="at Alcatraz" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="13">
+                            <rect key="frame" x="354" y="212" width="385" height="84"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="72"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Capone" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="14">
+                            <rect key="frame" x="362" y="20" width="377" height="111"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="96"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tip: Swipe to change page." lineBreakMode="tailTruncation" minimumFontSize="10" id="15">
+                            <rect key="frame" x="568" y="922" width="145" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="28" userLabel="page1">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground.jpg" id="40">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="41">
+                    <rect key="frame" x="20" y="458" width="728" height="502"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">At 6 a.m. on August 19, 1934, a train carrying 53 prisoners left the Atlanta Federal Penitentiary and headed west. One of the men onboard is the best known prisoner in all of American criminal history. His name is Alphonse Gabriel Capone. The public knows him as Al Capone.
+
+Capone has been at the Atlanta Federal Penitentiary since May of 1932, and has served 2 years of an 11-year prison sentence—10 years for income tax evasion, and 1 for contempt of court. Now he finds himself in a heavily guarded railroad car with his hands handcuffed and his legs shackled.
+
+Ten months earlier, Homer Cummings, the Attorney General of the United States, had announced on the radio that Al Capone would be one of the first prisoners sent to a new maximum security prison on an island called Alcatraz, in San Francisco Bay.
+
+Capone had a lot of time to reflect as he sat on that train. He may have been thinking back to his days in Brooklyn, New York, where he was born on January 17, 1899.
+
+Al was the 4th of 9 children born to parents who had immigrated to the United States from Italy. His father owned a combination pool hall, bowling alley, and barber shop. His mother did the best she could to look out for her family, but they lived in a tough neighborhood. Al belonged to local gangs, and was always getting into fights. One of those fights left him with 5 knife scars on the left side of his face. In later years, some would refer to him as “Scarface,” but never to his face.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="chicagomugshot.jpg" id="42">
+                    <rect key="frame" x="41" y="20" width="685" height="435"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="105" userLabel="page2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground2.jpg" id="109">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="107">
+                    <rect key="frame" x="20" y="436" width="728" height="544"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">Al went to public school until he reached the 6th grade, when he dropped out to work in a box factory. There he met a girl named Mae Coughlin. Al and Mae married in 1918 and had a son, Albert Francis. They called him Sonny.
+
+After Sonny’s birth, Al went to work as a bouncer in a Brooklyn nightclub. Shortly after that, he took a similar position in Chicago, working for his old friend, Johnny Torrio.
+
+Al’s thoughts were probably interrupted from time to time as the train stopped to change crews. The route was supposed to have been a secret, but there were crowds at every stop, watching for the train to go by. One prisoner on that train—a man named Ruey Eaton—would later say that the people along the route were all yelling out, “Which one is Capone? Which one is Capone?”
+
+A year earlier, five people had been killed at a train station at Kansas City, Missouri, by men trying to free a prisoner headed for Leavenworth Penitentury. Because of that incident, officials had done their best to make this transfer as secure as they could, so the crowds that lined the railway were an embarrassment to them. But as they would soon find out, when it came to Al Capone, there was no way to keep secrets.
+
+As the train rolled on and on, Capone had plenty of time to think about what his life had been like—and how things had changed.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="oldisland.jpg" id="106">
+                    <rect key="frame" x="20" y="20" width="728" height="408"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="112" userLabel="page3">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground3.jpg" id="116">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="114">
+                    <rect key="frame" x="20" y="261" width="728" height="437"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">Capone had come to Chicago at an opportune time. The National Prohibition Act, which made it illegal for anyone to make, sell, or transport alcoholic beverages, had gone into effect at midnight on January 16, 1920—just moments before Al’s 21st birthday on January 17.
+
+Capone’s friend and employer, Johnny Torrio, worked for a man named Big Jim Colosimo, one of the most notorious of Chicago’s crime bosses. Torrio knew that the new ban on alcohol offered new opportunities for the gang, but Big Jim wasn’t interested; he already had a specialty—he owned brothels all over the city. A few months later, though, Big Jim was gunned down, leaving Torrio in charge of the gang, along with his right-hand man Al Capone.
+
+Torrio wasted no time in taking over business. He taught Capone all he knew about running a first-class criminal organization. Together, they expanded not only into illegal bootlegging—producing and selling alcoholic beverages—but also into a number of legal businesses as well, from real estate to milk delivery.
+
+Torrio wasn’t alone in thinking there was big money to be made in bootlegging. The Chicago gangs fought for control of the city’s alcohol sales. Gunfights in the streets were not uncommon, and in 1925, Torrio himself was shot and nearly killed in front of his home. That incident convinced Torrio that it was time to retire. He moved back to Italy and left the organization to his 26-year-old lieutenant, Al Capone.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="119" userLabel="page4">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground4.jpg" id="123">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="121">
+                    <rect key="frame" x="20" y="220" width="728" height="519"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">This was Capone’s heyday, and he made the most of it. His flamboyant style and personality made him popular with the public. He opened soup kitchens for the poor and employed hundreds in his schemes, both legal and illegal. When he walked around town, people would cross the street to shake his hand. He was cheered at Chicago Cubs baseball games, and in March of 1930, his picture was on the cover of Time magazine. Capone supplied the public with what they wanted, and they were grateful. To some, he was a modern-day Robin Hood.
+
+For Capone, the cost of popularity and success was constant battles with rival gangs. Shootings were a regular occurrence on Chicago streets; violence was a way of life. Capone and his henchmen played a big part in the city’s criminal activities. They were accused of many murders, but none was more infamous than the one that happened on February 14th, 1929: the St. Valentine’s Day Massacre. On that fateful day, seven rival gang members were lined up against a wall and machine-gunned to death by men posing as police officers. No one was ever charged with the murders, but most felt that Al Capone was responsible—even though he was in Florida that day meeting with the Dade County Solicitor and Sheriff, and the Assistant District Attorney from King’s County, New York.
+
+Public officials were outraged by the murders, but their effort to bring Capone and his gang to justice was an impossible task. No one would dare testify against Capone. There was, however, one other possibility. Just 2 years before, in 1927, the Supreme Court had ruled in United States vs. Sullivan that all money, whether made legally or illegally, was subject to taxation. With this court ruling on their side, the Internal Revenue Service successfully prosecuted Capone. His trial had been a media circus. The whole world watched as Al Capone was sent to prison in Atlanta. Now he was on his way to Alcatraz.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="125" userLabel="page5">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground5.jpg" id="129">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="127">
+                    <rect key="frame" x="20" y="546" width="728" height="391"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">For three days Capone sat on that stuffy train. Now, nearing arrival, the train pulled into a small railroad yard north of San Francisco, near a seaside village called Tiburon.
+
+Like all the train stops from Georgia to California, the press and the public were there waiting for them, but Capone and the other prisoners never got off the railroad car, even though they’d come to the edge of San Francisco Bay. Instead, the cars were detached from the engine, loaded onto a Southern Pacific Railroad barge, and ferried across the bay by tugboat. Coast Guard vessels kept boats filled with reporters and spectators away as the floating cars made their way across the bay. Capone couldn’t see very well out the windows—they were covered with bars—but he knew they were getting near the island prison of Alcatraz.
+
+Today, visitors to Alcatraz tie up at the same dock where Al and his fellow prisoners finally arrived—53 of them in all. Before the prisoners came ashore, their leg irons were removed and they were handcuffed to one another in pairs. After days cooped up on the train, they emerged two-by-two into the sunlight and were marched up the hill to the back of the island and escorted up the steps to the recreation yard. They were taken to the cell house, identified, and assigned a number: Al Capone was #85. From there, the prisoners were marched downstairs to the shower room, examined, given uniforms, and escorted to their cells.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="trainarriving.jpg" id="126">
+                    <rect key="frame" x="20" y="20" width="728" height="518"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="131" userLabel="page6">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground.jpg" id="135">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="133">
+                    <rect key="frame" x="20" y="418" width="728" height="542"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">Back in Chicago, where Capone’s family now lived, Al’s mother, Theresa, heard that her son was being transferred to Alcatraz. Alarmed that she might not be able to visit the island prison, she sent a letter to Attorney General Homer Cummings in Washington, D.C. In it, she said:
+
+“During all of the time my son, Alphonse Capone, was incarcerated in the Federal Prison at Atlanta, his wife and myself were permitted to visit him in compliance with the rules of that prison.
+
+“We desire to visit him at the prison at which he is now confined, namely, the Alcatraz, located in the Pacific Ocean.”
+
+The first cell Capone occupied at Alcatraz was #433, located at the end of C block—the last cell on the second tier, near the recreation-yard door. Then, sometime after February, 1935, he was moved to cell #181, fourth from the end on the second tier of B block, at the northwest corner of the cell house, near the stairs coming up from the shower room. There he enjoyed a coveted view of San Francisco Bay.
+
+Today, visitors to the prison can be confused by the numbers on the cells. That’s because, over the years, the cell house has had three different numbering systems. The first was put in place by the Army, who used the island to defend San Francisco Bay. The second was devised by James Johnston, who was warden of the newly created federal prison when Capone arrived in 1934. More recent is a system used by Warden Edwin Swope, which began in 1948. Hollywood has also played a part in the confusion: The cells today reflect not only the institution’s numerous numbering systems, but also made-up numbers left over from movies filmed in the cell house.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="emptycell.jpg" id="132">
+                    <rect key="frame" x="41" y="20" width="685" height="390"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="140" userLabel="page7">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground2.jpg" id="143">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="142">
+                    <rect key="frame" x="20" y="458" width="729" height="475"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">Boisterous and sociable by nature, Capone’s first few years at Alcatraz must have been particularly unpleasant. In the 1930s, it was common for prisons—including Alcatraz—to impose a rule of silence. Except when they were in the recreation yard, and sometimes on the job, Al and the other prisoners were not allowed to talk. So Capone and his fellow inmates sat quietly in their cells, day in and day out—until one day, sometime in late 1935 or early 1936, when all the prisoners began talking at once. When it became clear that the guards were not going to be able to keep the inmates quiet, the rule was no longer enforced.
+
+Despite his isolation, Al didn’t escape his enemies when he arrived at Alcatraz. The Secret Service, former inmates, and even the newspapers regularly warned of plots to kill him.
+
+Not only was Capone famous throughout the country, but he was also perceived as being extremely rich, so it’s no surprise that some of his fellow prisoners were jealous of him. Some tried to extort money and favors; others just wanted to kill him. Capone’s family asked repeatedly for Al to be transferred to another prison where he would be safer, but no matter how many times they were asked, the Bureau of Prisons always denied the request. They assured Capone’s family that no harm could possibly come to him while he was at Alcatraz.
+
+Then, in June of 1936, Alcatraz inmate James Lucas, #224, stabbed Capone in the chest with half a pair of scissors. Al fought Lucas off. He’d been stabbed a number of times, but the injuries were not life threatening. Al’s family and attorneys once again demanded he be transferred to another prison, but the answer, as always, was no.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="guardatcorner.jpg" id="141">
+                    <rect key="frame" x="41" y="20" width="605" height="430"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="145" userLabel="page8">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground3.jpg" id="148">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="147">
+                    <rect key="frame" x="20" y="423" width="728" height="514"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">When Al wasn’t defending himself from other inmates, he spent time in his cell reading, practicing the mandolin, and even writing music. He kept in touch with his family, writing letters whenever he was allowed to. His wife, son, and mother visited as often as they could; his sister Mafalda and his brothers John and Matthew also visited from time to time. Only one visit per month was allowed.
+
+During Capone’s time on the island, he held a variety of prison jobs, working in the laundry, the library, and the shower room, and cleaning the recreation yard. At one point, Al’s supervisor at the library was asked to rate his work for an upcoming parole hearing. The library supervisor said that Al was a good worker, and that his only shortcoming was that he offered his advice too often.
+
+The entire time Al was in prison, the public was constantly sending him letters. Some offered personal advice or concern about his religious faith. Others asked for money or suggested business opportunities. People wanted Al to sign book deals, write clever sayings for tombstones, even design cattle brands. Warnings of plots came from other convicts, as did threats and attempts at blackmail. Al didn’t see any of these communications, but some still survive in his prison records—as does the order to destroy the bulk of them.
+
+Unlike most of his fellow inmates, Capone was serving a relatively short sentence. With the “good time” he earned by staying out of trouble, he was due to be released in January of 1939, when he was 40 years old. In fact, one of the books he checked out of the library was called Life Begins at Forty. His records show that he read a wide variety of useful books, including Practical Flower Gardening, Brazilian Adventures, and Sailing Alone around the World.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="inmatesinrecyard.jpg" id="146">
+                    <rect key="frame" x="30" y="20" width="707" height="395"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="150" userLabel="page9">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground4.jpg" id="153">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="152">
+                    <rect key="frame" x="20" y="559" width="728" height="371"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">As the years passed, Al did get into a few fights, and was once sent to solitary confinement for 8 days, but in general, he seemed to be trying to live as quietly as possible. On February 5, 1938, however, less than a year before his release, things began to change. A memo written by Associate Warden E.J. Miller reported that Capone had begun the day by putting on the wrong clothes. He was sent back to change. Then, after breakfast, Al became confused as he tried to make his way back to his cell, and needed to be escorted by a guard. Miller wrote:
+
+“After we let the men go out to work, I went up to Capone’s cell and talked to him to see what was the matter with him and what explanation he had for his actions. He was sitting on the toilet and in response to my questions all I could get were indistinct, incoherent mumblings.
+
+“At about 8:15, Mr. Amende, Cell House Officer, called me and said that Capone had thrown a fit in his cell. I went to Capone’s cell and found he was laying on the floor and appeared to be in a hysterical fit of some sort.
+
+“I immediately sent for the Doctor and when Dr. Hess came and put him on the bunk and examined him, he said we had better take him to the Hospital.”</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="menonphones.jpg" id="151">
+                    <rect key="frame" x="30" y="20" width="707" height="531"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="155" userLabel="page10">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground5.jpg" id="158">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="157">
+                    <rect key="frame" x="20" y="491" width="728" height="456"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">Capone was taken to the prison hospital that day, but as time went by, things didn’t seem to get any better. After 2 days of observation, prison physician Dr. George Hess wrote this note in the hospital’s clinical record book:
+
+“Patient doesn’t eat his food. Says he just doesn’t care for any. Had a very restless night. Asked several times if his son was all right. Has a silly grin on face. Made and remade his bed several times during the night. Seems somewhat disoriented as to time and place. Very pleasant, but is beginning to get a little boisterous.”
+
+Even with all the security of a federal penitentiary, Alcatraz couldn’t keep a story about Al Capone from the press. Almost immediately, the newspapers were printing stories about his condition. They said Al had been reduced to wearing a straightjacket—a claim officials denied, though records do show he was occasionally held in bed with restraining sheets—and that he’d spent “day after day foolishly making and unmaking his bed,” exactly as Dr. Hess had written.
+
+Eventually, the Department of Justice responded with a press release that simply read:
+
+“It was announced at the Department of Justice today that on February 5, 1938, Alphonse Capone, an inmate of the United States Penitentiary at Alcatraz, became ill and since that time he has been confined in the prison hospital on the Island. He is still under observation but the doctors have not made a definite diagnosis of the case.”</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="scaryhospital.jpg" id="156">
+                    <rect key="frame" x="20" y="20" width="728" height="463"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="160" userLabel="page11">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground.jpg" id="163">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="162">
+                    <rect key="frame" x="19" y="524" width="729" height="436"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">Actually, prison officials had always known that Capone had a potentially serious medical condition. He was infected with syphilis—a sexually-transmitted disease that’s easily treated today, but at the time, was incurable. Prison doctors had offered treatment in the past, but without any overt symptoms, Capone felt he didn’t need the help. This time, though, it was obvious that he was becoming very ill.
+
+Again, Capone family members tried to have Al transferred to another prison but, as before, the Bureau of Prisons would not allow it. They felt Capone’s illness could be adequately handled at Alcatraz. Their plan was to use a new treatment pioneered by an Austrian neurologist who’d found that high fevers induced by malaria, and then controlled by quinine, sometimes helped stop the mental deterioration of patients with advanced syphilis. In their efforts to cure Capone’s syphilis, they gave him malaria. A hospital report from October of 1938 says:
+
+“For your information the following Psychiatric report is submitted on the above-named inmate: This man was injected with blood from a patient with quartan malaria and had nine chills at irregular intervals. For a while they came daily.
+
+“On one occasion there were no chills for five days. The temperature was as high as 104.5 and 105. At the time of his last chill he had a violent convulsive seizure and it was felt that it might be the end of him.”</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="pharmacy.jpg" id="161">
+                    <rect key="frame" x="31" y="20" width="706" height="496"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="165" userLabel="page12">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground2.jpg" id="168">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="167">
+                    <rect key="frame" x="19" y="468" width="728" height="479"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">Capone survived, but the radical treatment left him physically weak, and his mental condition continued to deteriorate. Some days Al was happy and talked of helping the poor when he got out of prison; other times he attacked staff and inmates or tore up his clothes. Letters to his wife and son talked about how they’d all be together soon, and how there’d never be any more grief for the family. But deep down, Al must have known what his family already knew—that he was becoming desperately ill.
+
+Despite all the mood swings and problematic behavior, Al had accumulated enough “good time” to reduce his sentence from 10 years to less than 7. But he still had 1 more year to serve for an earlier contempt of court conviction, when he’d failed to show up for a Chicago grand jury investigation of his tax records.
+
+Under normal circumstances, he would have been transferred to Cook County, in Illinois. But because of his declining health, and because Chicago officials were wary of having Capone return to his old stomping grounds, officials arranged instead for him to be transferred to a federal prison called Terminal Island, near Long Beach, California. Dr. George Hess, who had treated Al at Alcatraz, had transferred there earlier.
+
+On January 6, 1939, Capone arrived at Terminal Island Federal Correctional Institution with the following personal property: 93 photos, 1 string of rosary beads, 1 leather case, 5 religious medals, 5 letters, 3 copies of letters, 1 telegram copy, 4 greeting cards, and 5 religious photos. His mug shot looks as if he’s wearing a straitjacket.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="alcatrazmugshot.jpg" id="166">
+                    <rect key="frame" x="19" y="20" width="728" height="440"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="170" userLabel="page13">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground3.jpg" id="173">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="172">
+                    <rect key="frame" x="20" y="292" width="728" height="375"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <string key="text">At Terminal Island, Al’s condition went from bad to worse. He was often confused and had a hard time following directions. He became violent on a regular basis and had to be segregated from other inmates. He was ultimately released a few months early, on November 4, 1939.
+
+They transported him by train to Lewisburg Federal Penitentiary in Pennsylvania. There he was held for one day and then released to his relatives at a prearranged rendezvous point near Gettysburg, Pennsylvania. The family took Capone directly to Union Memorial Hospital in Baltimore for treatment. Al was so happy to be with his family, and so appreciative of his treatment at Union Memorial, that he donated a cherry tree. It still grows on the hospital grounds today.
+
+After his treatment, Al returned to his Florida mansion, but never really recovered. In fact, Al’s close friend, Jake “Greasy Thumb” Guzik, was reported to have said after a visit that Al was “as nutty as a fruitcake.”
+
+On January 25, 1947, at the age of 48, Alphonse Gabriel Capone died of a stroke and bronchitis pneumonia in a guest house at his Florida estate.</string>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="175" userLabel="page14">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="coffeepaperbackground4.jpg" id="178">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="America’s most famous criminal died that day, but his legend had just begun." textAlignment="center" id="177">
+                    <rect key="frame" x="20" y="20" width="728" height="34"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="caponeface.jpg" id="176">
+                    <rect key="frame" x="15" y="67" width="738" height="879"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="alcatrazmugshot.jpg" width="700" height="457"/>
+        <image name="caponeface.jpg" width="640" height="785"/>
+        <image name="caponetitle.jpg" width="531" height="1024"/>
+        <image name="chicagomugshot.jpg" width="700" height="440"/>
+        <image name="coffeepaperbackground.jpg" width="1024" height="1024"/>
+        <image name="coffeepaperbackground2.jpg" width="1024" height="1024"/>
+        <image name="coffeepaperbackground3.jpg" width="1024" height="1024"/>
+        <image name="coffeepaperbackground4.jpg" width="1024" height="1024"/>
+        <image name="coffeepaperbackground5.jpg" width="1024" height="1024"/>
+        <image name="emptycell.jpg" width="700" height="928"/>
+        <image name="guardatcorner.jpg" width="700" height="571"/>
+        <image name="inmatesinrecyard.jpg" width="700" height="507"/>
+        <image name="menonphones.jpg" width="700" height="516"/>
+        <image name="oldisland.jpg" width="700" height="390"/>
+        <image name="pharmacy.jpg" width="700" height="653"/>
+        <image name="scaryhospital.jpg" width="700" height="645"/>
+        <image name="trainarriving.jpg" width="700" height="549"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CaponeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CaponeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* CaponeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CaponeViewController.m */; };
+		FA0E119F1605932800974270 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0E119E1605932800974270 /* icon114.png */; };
+		FA0E11A11605938200974270 /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0E11A01605938200974270 /* icon144.png */; };
+		FA1250E112DFFFCB0002D4AC /* icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1250E012DFFFCB0002D4AC /* icon512.png */; };
+		FA1DB21717E1AED800BB27DF /* CaponeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB21617E1AED700BB27DF /* CaponeViewController.xib */; };
+		FA2C9E7412E2A4740051543F /* alcatrazmugshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E6712E2A4730051543F /* alcatrazmugshot.jpg */; };
+		FA2C9E7512E2A4740051543F /* caponeface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E6812E2A4730051543F /* caponeface.jpg */; };
+		FA2C9E7612E2A4740051543F /* caponetitle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E6912E2A4730051543F /* caponetitle.jpg */; };
+		FA2C9E7712E2A4740051543F /* chicagomugshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E6A12E2A4730051543F /* chicagomugshot.jpg */; };
+		FA2C9E7812E2A4740051543F /* emptycell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E6B12E2A4730051543F /* emptycell.jpg */; };
+		FA2C9E7912E2A4740051543F /* fingerprints.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E6C12E2A4730051543F /* fingerprints.jpg */; };
+		FA2C9E7A12E2A4740051543F /* guardatcorner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E6D12E2A4730051543F /* guardatcorner.jpg */; };
+		FA2C9E7B12E2A4740051543F /* inmatesinrecyard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E6E12E2A4740051543F /* inmatesinrecyard.jpg */; };
+		FA2C9E7C12E2A4740051543F /* menonphones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E6F12E2A4740051543F /* menonphones.jpg */; };
+		FA2C9E7D12E2A4740051543F /* oldisland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E7012E2A4740051543F /* oldisland.jpg */; };
+		FA2C9E7E12E2A4740051543F /* pharmacy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E7112E2A4740051543F /* pharmacy.jpg */; };
+		FA2C9E7F12E2A4740051543F /* scaryhospital.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E7212E2A4740051543F /* scaryhospital.jpg */; };
+		FA2C9E8012E2A4740051543F /* trainarriving.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E7312E2A4740051543F /* trainarriving.jpg */; };
+		FA2C9E9B12E2A8010051543F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2C9E9A12E2A8010051543F /* icon.png */; };
+		FA5437E112CC484E00AC6D90 /* credits.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5437DF12CC484E00AC6D90 /* credits.m */; };
+		FA5437E212CC484E00AC6D90 /* credits.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5437E012CC484E00AC6D90 /* credits.xib */; };
+		FA58E63912CD2EAF00C922E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA58E63812CD2EAF00C922E1 /* AVFoundation.framework */; };
+		FA58E79212CD56A500C922E1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA58E79112CD56A500C922E1 /* MediaPlayer.framework */; };
+		FA690D3F12D7E63D00AD738F /* iPadCredits.m in Sources */ = {isa = PBXBuildFile; fileRef = FA690D3D12D7E63D00AD738F /* iPadCredits.m */; };
+		FA690D4012D7E63D00AD738F /* iPadCredits.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA690D3E12D7E63D00AD738F /* iPadCredits.xib */; };
+		FA83CA091601750200CD40B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA83CA081601750200CD40B8 /* Default-568h@2x.png */; };
+		FA99083116085508002C63DD /* caponepage1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082316085508002C63DD /* caponepage1.m4a */; };
+		FA99083216085508002C63DD /* caponepage2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082416085508002C63DD /* caponepage2.m4a */; };
+		FA99083316085508002C63DD /* caponepage3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082516085508002C63DD /* caponepage3.m4a */; };
+		FA99083416085508002C63DD /* caponepage4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082616085508002C63DD /* caponepage4.m4a */; };
+		FA99083516085508002C63DD /* caponepage5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082716085508002C63DD /* caponepage5.m4a */; };
+		FA99083616085508002C63DD /* caponepage6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082816085508002C63DD /* caponepage6.m4a */; };
+		FA99083716085508002C63DD /* caponepage7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082916085508002C63DD /* caponepage7.m4a */; };
+		FA99083816085508002C63DD /* caponepage8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082A16085508002C63DD /* caponepage8.m4a */; };
+		FA99083916085508002C63DD /* caponepage9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082B16085508002C63DD /* caponepage9.m4a */; };
+		FA99083A16085508002C63DD /* caponepage10.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082C16085508002C63DD /* caponepage10.m4a */; };
+		FA99083B16085508002C63DD /* caponepage11.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082D16085508002C63DD /* caponepage11.m4a */; };
+		FA99083C16085508002C63DD /* caponepage12.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082E16085508002C63DD /* caponepage12.m4a */; };
+		FA99083D16085508002C63DD /* caponepage13.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99082F16085508002C63DD /* caponepage13.m4a */; };
+		FA99083E16085508002C63DD /* caponepage14.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FA99083016085508002C63DD /* caponepage14.m4a */; };
+		FA9B639312DD561400B8CAA3 /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9B639112DD561400B8CAA3 /* icon72.png */; };
+		FAC4ED3B17EACB3D00BAEE95 /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4ED3817EACB3C00BAEE95 /* icon76.png */; };
+		FAC4ED3C17EACB3D00BAEE95 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4ED3917EACB3D00BAEE95 /* icon120.png */; };
+		FAC4ED3D17EACB3D00BAEE95 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC4ED3A17EACB3D00BAEE95 /* icon152.png */; };
+		FADFD96D12D07086005B5202 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADFD96C12D07086005B5202 /* MainWindow-iPad.xib */; };
+		FADFD97B12D071D0005B5202 /* CaponeViewControlleriPad.m in Sources */ = {isa = PBXBuildFile; fileRef = FADFD97912D071D0005B5202 /* CaponeViewControlleriPad.m */; };
+		FADFD97C12D071D0005B5202 /* CaponeViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADFD97A12D071D0005B5202 /* CaponeViewControlleriPad.xib */; };
+		FAFDDE9A17EA4BDB0029F28E /* coffeepaperbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFDDE9517EA4BDB0029F28E /* coffeepaperbackground.jpg */; };
+		FAFDDE9B17EA4BDB0029F28E /* coffeepaperbackground2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFDDE9617EA4BDB0029F28E /* coffeepaperbackground2.jpg */; };
+		FAFDDE9C17EA4BDB0029F28E /* coffeepaperbackground3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFDDE9717EA4BDB0029F28E /* coffeepaperbackground3.jpg */; };
+		FAFDDE9D17EA4BDB0029F28E /* coffeepaperbackground4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFDDE9817EA4BDB0029F28E /* coffeepaperbackground4.jpg */; };
+		FAFDDE9E17EA4BDB0029F28E /* coffeepaperbackground5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFDDE9917EA4BDB0029F28E /* coffeepaperbackground5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CaponeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaponeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CaponeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaponeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Capone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* CaponeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaponeViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* CaponeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaponeViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Capone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Capone_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Capone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Capone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FA0E119E1605932800974270 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		FA0E11A01605938200974270 /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
+		FA1250E012DFFFCB0002D4AC /* icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon512.png; sourceTree = "<group>"; };
+		FA1DB21617E1AED700BB27DF /* CaponeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CaponeViewController.xib; path = Classes/CaponeViewController.xib; sourceTree = "<group>"; };
+		FA2C9E6712E2A4730051543F /* alcatrazmugshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alcatrazmugshot.jpg; sourceTree = "<group>"; };
+		FA2C9E6812E2A4730051543F /* caponeface.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caponeface.jpg; sourceTree = "<group>"; };
+		FA2C9E6912E2A4730051543F /* caponetitle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caponetitle.jpg; sourceTree = "<group>"; };
+		FA2C9E6A12E2A4730051543F /* chicagomugshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicagomugshot.jpg; sourceTree = "<group>"; };
+		FA2C9E6B12E2A4730051543F /* emptycell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptycell.jpg; sourceTree = "<group>"; };
+		FA2C9E6C12E2A4730051543F /* fingerprints.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fingerprints.jpg; sourceTree = "<group>"; };
+		FA2C9E6D12E2A4730051543F /* guardatcorner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guardatcorner.jpg; sourceTree = "<group>"; };
+		FA2C9E6E12E2A4740051543F /* inmatesinrecyard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inmatesinrecyard.jpg; sourceTree = "<group>"; };
+		FA2C9E6F12E2A4740051543F /* menonphones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menonphones.jpg; sourceTree = "<group>"; };
+		FA2C9E7012E2A4740051543F /* oldisland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oldisland.jpg; sourceTree = "<group>"; };
+		FA2C9E7112E2A4740051543F /* pharmacy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pharmacy.jpg; sourceTree = "<group>"; };
+		FA2C9E7212E2A4740051543F /* scaryhospital.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scaryhospital.jpg; sourceTree = "<group>"; };
+		FA2C9E7312E2A4740051543F /* trainarriving.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trainarriving.jpg; sourceTree = "<group>"; };
+		FA2C9E9A12E2A8010051543F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FA5437DE12CC484E00AC6D90 /* credits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = credits.h; sourceTree = "<group>"; };
+		FA5437DF12CC484E00AC6D90 /* credits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = credits.m; sourceTree = "<group>"; };
+		FA5437E012CC484E00AC6D90 /* credits.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = credits.xib; path = Classes/credits.xib; sourceTree = "<group>"; };
+		FA58E63812CD2EAF00C922E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FA58E79112CD56A500C922E1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FA690D3C12D7E63D00AD738F /* iPadCredits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadCredits.h; sourceTree = "<group>"; };
+		FA690D3D12D7E63D00AD738F /* iPadCredits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadCredits.m; sourceTree = "<group>"; };
+		FA690D3E12D7E63D00AD738F /* iPadCredits.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = iPadCredits.xib; path = Classes/iPadCredits.xib; sourceTree = "<group>"; };
+		FA83CA081601750200CD40B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FA99082316085508002C63DD /* caponepage1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage1.m4a; sourceTree = "<group>"; };
+		FA99082416085508002C63DD /* caponepage2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage2.m4a; sourceTree = "<group>"; };
+		FA99082516085508002C63DD /* caponepage3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage3.m4a; sourceTree = "<group>"; };
+		FA99082616085508002C63DD /* caponepage4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage4.m4a; sourceTree = "<group>"; };
+		FA99082716085508002C63DD /* caponepage5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage5.m4a; sourceTree = "<group>"; };
+		FA99082816085508002C63DD /* caponepage6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage6.m4a; sourceTree = "<group>"; };
+		FA99082916085508002C63DD /* caponepage7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage7.m4a; sourceTree = "<group>"; };
+		FA99082A16085508002C63DD /* caponepage8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage8.m4a; sourceTree = "<group>"; };
+		FA99082B16085508002C63DD /* caponepage9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage9.m4a; sourceTree = "<group>"; };
+		FA99082C16085508002C63DD /* caponepage10.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage10.m4a; sourceTree = "<group>"; };
+		FA99082D16085508002C63DD /* caponepage11.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage11.m4a; sourceTree = "<group>"; };
+		FA99082E16085508002C63DD /* caponepage12.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage12.m4a; sourceTree = "<group>"; };
+		FA99082F16085508002C63DD /* caponepage13.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage13.m4a; sourceTree = "<group>"; };
+		FA99083016085508002C63DD /* caponepage14.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = caponepage14.m4a; sourceTree = "<group>"; };
+		FA9B639112DD561400B8CAA3 /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
+		FAC4ED3817EACB3C00BAEE95 /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
+		FAC4ED3917EACB3D00BAEE95 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		FAC4ED3A17EACB3D00BAEE95 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
+		FADFD96C12D07086005B5202 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		FADFD97812D071D0005B5202 /* CaponeViewControlleriPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaponeViewControlleriPad.h; sourceTree = "<group>"; };
+		FADFD97912D071D0005B5202 /* CaponeViewControlleriPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaponeViewControlleriPad.m; sourceTree = "<group>"; };
+		FADFD97A12D071D0005B5202 /* CaponeViewControlleriPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CaponeViewControlleriPad.xib; path = Classes/CaponeViewControlleriPad.xib; sourceTree = "<group>"; };
+		FAFDDE9517EA4BDB0029F28E /* coffeepaperbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffeepaperbackground.jpg; sourceTree = "<group>"; };
+		FAFDDE9617EA4BDB0029F28E /* coffeepaperbackground2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffeepaperbackground2.jpg; sourceTree = "<group>"; };
+		FAFDDE9717EA4BDB0029F28E /* coffeepaperbackground3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffeepaperbackground3.jpg; sourceTree = "<group>"; };
+		FAFDDE9817EA4BDB0029F28E /* coffeepaperbackground4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffeepaperbackground4.jpg; sourceTree = "<group>"; };
+		FAFDDE9917EA4BDB0029F28E /* coffeepaperbackground5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffeepaperbackground5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				FA58E63912CD2EAF00C922E1 /* AVFoundation.framework in Frameworks */,
+				FA58E79212CD56A500C922E1 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CaponeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CaponeAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* CaponeViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* CaponeViewController.m */,
+				FADFD97812D071D0005B5202 /* CaponeViewControlleriPad.h */,
+				FADFD97912D071D0005B5202 /* CaponeViewControlleriPad.m */,
+				FA5437DE12CC484E00AC6D90 /* credits.h */,
+				FA5437DF12CC484E00AC6D90 /* credits.m */,
+				FA690D3C12D7E63D00AD738F /* iPadCredits.h */,
+				FA690D3D12D7E63D00AD738F /* iPadCredits.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Capone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				FA83CA081601750200CD40B8 /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				FADFD96B12D07086005B5202 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				FA58E63812CD2EAF00C922E1 /* AVFoundation.framework */,
+				FA58E79112CD56A500C922E1 /* MediaPlayer.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Capone_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C9EA612E2A8130051543F /* icons */,
+				FA58E65A12CD339700C922E1 /* Audio */,
+				FAB4028612B6E07B007DD014 /* Images */,
+				FA74825812B445EE00C7546A /* Backgrounds */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				FA1DB21617E1AED700BB27DF /* CaponeViewController.xib */,
+				FA5437E012CC484E00AC6D90 /* credits.xib */,
+				8D1107310486CEB800E47090 /* Capone-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2C9EA612E2A8130051543F /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C9E9A12E2A8010051543F /* icon.png */,
+				FAC4ED3817EACB3C00BAEE95 /* icon76.png */,
+				FAC4ED3917EACB3D00BAEE95 /* icon120.png */,
+				FAC4ED3A17EACB3D00BAEE95 /* icon152.png */,
+				FA0E11A01605938200974270 /* icon144.png */,
+				FA0E119E1605932800974270 /* icon114.png */,
+				FA9B639112DD561400B8CAA3 /* icon72.png */,
+				FA1250E012DFFFCB0002D4AC /* icon512.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		FA58E65A12CD339700C922E1 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				FA99082316085508002C63DD /* caponepage1.m4a */,
+				FA99082416085508002C63DD /* caponepage2.m4a */,
+				FA99082516085508002C63DD /* caponepage3.m4a */,
+				FA99082616085508002C63DD /* caponepage4.m4a */,
+				FA99082716085508002C63DD /* caponepage5.m4a */,
+				FA99082816085508002C63DD /* caponepage6.m4a */,
+				FA99082916085508002C63DD /* caponepage7.m4a */,
+				FA99082A16085508002C63DD /* caponepage8.m4a */,
+				FA99082B16085508002C63DD /* caponepage9.m4a */,
+				FA99082C16085508002C63DD /* caponepage10.m4a */,
+				FA99082D16085508002C63DD /* caponepage11.m4a */,
+				FA99082E16085508002C63DD /* caponepage12.m4a */,
+				FA99082F16085508002C63DD /* caponepage13.m4a */,
+				FA99083016085508002C63DD /* caponepage14.m4a */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		FA74825812B445EE00C7546A /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDDE9517EA4BDB0029F28E /* coffeepaperbackground.jpg */,
+				FAFDDE9617EA4BDB0029F28E /* coffeepaperbackground2.jpg */,
+				FAFDDE9717EA4BDB0029F28E /* coffeepaperbackground3.jpg */,
+				FAFDDE9817EA4BDB0029F28E /* coffeepaperbackground4.jpg */,
+				FAFDDE9917EA4BDB0029F28E /* coffeepaperbackground5.jpg */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		FAB4028612B6E07B007DD014 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C9E6712E2A4730051543F /* alcatrazmugshot.jpg */,
+				FA2C9E6812E2A4730051543F /* caponeface.jpg */,
+				FA2C9E6912E2A4730051543F /* caponetitle.jpg */,
+				FA2C9E6A12E2A4730051543F /* chicagomugshot.jpg */,
+				FA2C9E6B12E2A4730051543F /* emptycell.jpg */,
+				FA2C9E6C12E2A4730051543F /* fingerprints.jpg */,
+				FA2C9E6D12E2A4730051543F /* guardatcorner.jpg */,
+				FA2C9E6E12E2A4740051543F /* inmatesinrecyard.jpg */,
+				FA2C9E6F12E2A4740051543F /* menonphones.jpg */,
+				FA2C9E7012E2A4740051543F /* oldisland.jpg */,
+				FA2C9E7112E2A4740051543F /* pharmacy.jpg */,
+				FA2C9E7212E2A4740051543F /* scaryhospital.jpg */,
+				FA2C9E7312E2A4740051543F /* trainarriving.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		FADFD96B12D07086005B5202 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				FADFD97A12D071D0005B5202 /* CaponeViewControlleriPad.xib */,
+				FADFD96C12D07086005B5202 /* MainWindow-iPad.xib */,
+				FA690D3E12D7E63D00AD738F /* iPadCredits.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Capone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Capone" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Capone;
+			productName = Capone;
+			productReference = 1D6058910D05DD3D006BFB54 /* Capone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 5UZ9REW98E;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Capone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Capone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC4ED3C17EACB3D00BAEE95 /* icon120.png in Resources */,
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				FA5437E212CC484E00AC6D90 /* credits.xib in Resources */,
+				FAFDDE9D17EA4BDB0029F28E /* coffeepaperbackground4.jpg in Resources */,
+				FADFD96D12D07086005B5202 /* MainWindow-iPad.xib in Resources */,
+				FADFD97C12D071D0005B5202 /* CaponeViewControlleriPad.xib in Resources */,
+				FA690D4012D7E63D00AD738F /* iPadCredits.xib in Resources */,
+				FA9B639312DD561400B8CAA3 /* icon72.png in Resources */,
+				FA1250E112DFFFCB0002D4AC /* icon512.png in Resources */,
+				FA2C9E7412E2A4740051543F /* alcatrazmugshot.jpg in Resources */,
+				FA2C9E7512E2A4740051543F /* caponeface.jpg in Resources */,
+				FA2C9E7612E2A4740051543F /* caponetitle.jpg in Resources */,
+				FA2C9E7712E2A4740051543F /* chicagomugshot.jpg in Resources */,
+				FA2C9E7812E2A4740051543F /* emptycell.jpg in Resources */,
+				FA2C9E7912E2A4740051543F /* fingerprints.jpg in Resources */,
+				FA2C9E7A12E2A4740051543F /* guardatcorner.jpg in Resources */,
+				FA2C9E7B12E2A4740051543F /* inmatesinrecyard.jpg in Resources */,
+				FA2C9E7C12E2A4740051543F /* menonphones.jpg in Resources */,
+				FAFDDE9A17EA4BDB0029F28E /* coffeepaperbackground.jpg in Resources */,
+				FAFDDE9E17EA4BDB0029F28E /* coffeepaperbackground5.jpg in Resources */,
+				FAC4ED3B17EACB3D00BAEE95 /* icon76.png in Resources */,
+				FA2C9E7D12E2A4740051543F /* oldisland.jpg in Resources */,
+				FA2C9E7E12E2A4740051543F /* pharmacy.jpg in Resources */,
+				FA2C9E7F12E2A4740051543F /* scaryhospital.jpg in Resources */,
+				FA2C9E8012E2A4740051543F /* trainarriving.jpg in Resources */,
+				FA2C9E9B12E2A8010051543F /* icon.png in Resources */,
+				FAC4ED3D17EACB3D00BAEE95 /* icon152.png in Resources */,
+				FA83CA091601750200CD40B8 /* Default-568h@2x.png in Resources */,
+				FA0E119F1605932800974270 /* icon114.png in Resources */,
+				FA0E11A11605938200974270 /* icon144.png in Resources */,
+				FA99083116085508002C63DD /* caponepage1.m4a in Resources */,
+				FA1DB21717E1AED800BB27DF /* CaponeViewController.xib in Resources */,
+				FA99083216085508002C63DD /* caponepage2.m4a in Resources */,
+				FA99083316085508002C63DD /* caponepage3.m4a in Resources */,
+				FA99083416085508002C63DD /* caponepage4.m4a in Resources */,
+				FAFDDE9B17EA4BDB0029F28E /* coffeepaperbackground2.jpg in Resources */,
+				FA99083516085508002C63DD /* caponepage5.m4a in Resources */,
+				FA99083616085508002C63DD /* caponepage6.m4a in Resources */,
+				FA99083716085508002C63DD /* caponepage7.m4a in Resources */,
+				FA99083816085508002C63DD /* caponepage8.m4a in Resources */,
+				FA99083916085508002C63DD /* caponepage9.m4a in Resources */,
+				FA99083A16085508002C63DD /* caponepage10.m4a in Resources */,
+				FA99083B16085508002C63DD /* caponepage11.m4a in Resources */,
+				FA99083C16085508002C63DD /* caponepage12.m4a in Resources */,
+				FA99083D16085508002C63DD /* caponepage13.m4a in Resources */,
+				FAFDDE9C17EA4BDB0029F28E /* coffeepaperbackground3.jpg in Resources */,
+				FA99083E16085508002C63DD /* caponepage14.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CaponeAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* CaponeViewController.m in Sources */,
+				FA5437E112CC484E00AC6D90 /* credits.m in Sources */,
+				FADFD97B12D071D0005B5202 /* CaponeViewControlleriPad.m in Sources */,
+				FA690D3F12D7E63D00AD738F /* iPadCredits.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Capone_Prefix.pch;
+				INFOPLIST_FILE = "Capone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badguyspress.BehindBars;
+				PRODUCT_NAME = Capone;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Capone_Prefix.pch;
+				INFOPLIST_FILE = "Capone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badguyspress.BehindBars;
+				PRODUCT_NAME = Capone;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Brown (SW97QFPM3T)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3EB0B8B0-98D4-4B07-B85E-3650688B7DAC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Brown (SW97QFPM3T)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "3EB0B8B0-98D4-4B07-B85E-3650688B7DAC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA6F2FD812E3E983007863DB /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Brown (SW97QFPM3T)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "2CC6E78D-5C13-41E7-B1B1-DAF9A7AA8FE4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2CC6E78D-5C13-41E7-B1B1-DAF9A7AA8FE4";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribute;
+		};
+		FA6F2FD912E3E983007863DB /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Capone_Prefix.pch;
+				INFOPLIST_FILE = "Capone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badguyspress.BehindBars;
+				PRODUCT_NAME = Capone;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribute;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Capone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				FA6F2FD912E3E983007863DB /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Capone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				FA6F2FD812E3E983007863DB /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
