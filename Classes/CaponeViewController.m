@@ -311,6 +311,7 @@ scrollViewPage10, scrollViewPage11, scrollViewPage12;
                               initWithContentsOfURL:audioURL error:nil];
                 break;
             default:
+                audioURL = nil;
                 break;
         }
         voiceAudio.delegate = self;

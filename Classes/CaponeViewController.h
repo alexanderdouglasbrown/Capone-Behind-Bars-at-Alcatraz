@@ -39,9 +39,9 @@
 - (void)setPage;
 - (void)swipeLeft;
 - (void)swipeRight;
-- (void)bRewind;
-- (void)bPlayPause;
-- (void)bCredits;
+//- (void)bRewind;
+//- (void)bPlayPause;
+//- (void)bCredits;
 - (void)animationFinished;
 //- (void)delegatePause;
 //- (void)delegateResume;
