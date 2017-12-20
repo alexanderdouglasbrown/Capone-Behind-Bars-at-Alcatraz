@@ -205,10 +205,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FA2C9EA612E2A8130051543F /* icons */,
-				FA58E65A12CD339700C922E1 /* Audio */,
-				FAB4028612B6E07B007DD014 /* Images */,
-				FA74825812B445EE00C7546A /* Backgrounds */,
+				FA52C48F1FEA406600404889 /* Images */,
+				FA52C48E1FEA403000404889 /* Audio */,
+				FA52C48D1FEA400E00404889 /* Icons */,
+				FA52C48C1FEA3FE100404889 /* Backgrounds */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				FA1DB21617E1AED700BB27DF /* CaponeViewController.xib */,
 				FA5437E012CC484E00AC6D90 /* credits.xib */,
@@ -227,7 +227,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA2C9EA612E2A8130051543F /* icons */ = {
+		FA52C48C1FEA3FE100404889 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDDE9517EA4BDB0029F28E /* coffeepaperbackground.jpg */,
+				FAFDDE9617EA4BDB0029F28E /* coffeepaperbackground2.jpg */,
+				FAFDDE9717EA4BDB0029F28E /* coffeepaperbackground3.jpg */,
+				FAFDDE9817EA4BDB0029F28E /* coffeepaperbackground4.jpg */,
+				FAFDDE9917EA4BDB0029F28E /* coffeepaperbackground5.jpg */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		FA52C48D1FEA400E00404889 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
 				FA2C9E9A12E2A8010051543F /* icon.png */,
@@ -239,10 +251,10 @@
 				FA9B639112DD561400B8CAA3 /* icon72.png */,
 				FA1250E012DFFFCB0002D4AC /* icon512.png */,
 			);
-			name = icons;
+			path = Icons;
 			sourceTree = "<group>";
 		};
-		FA58E65A12CD339700C922E1 /* Audio */ = {
+		FA52C48E1FEA403000404889 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
 				FA99082316085508002C63DD /* caponepage1.m4a */,
@@ -260,22 +272,10 @@
 				FA99082F16085508002C63DD /* caponepage13.m4a */,
 				FA99083016085508002C63DD /* caponepage14.m4a */,
 			);
-			name = Audio;
+			path = Audio;
 			sourceTree = "<group>";
 		};
-		FA74825812B445EE00C7546A /* Backgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				FAFDDE9517EA4BDB0029F28E /* coffeepaperbackground.jpg */,
-				FAFDDE9617EA4BDB0029F28E /* coffeepaperbackground2.jpg */,
-				FAFDDE9717EA4BDB0029F28E /* coffeepaperbackground3.jpg */,
-				FAFDDE9817EA4BDB0029F28E /* coffeepaperbackground4.jpg */,
-				FAFDDE9917EA4BDB0029F28E /* coffeepaperbackground5.jpg */,
-			);
-			name = Backgrounds;
-			sourceTree = "<group>";
-		};
-		FAB4028612B6E07B007DD014 /* Images */ = {
+		FA52C48F1FEA406600404889 /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				FA2C9E6712E2A4730051543F /* alcatrazmugshot.jpg */,
@@ -292,7 +292,7 @@
 				FA2C9E7212E2A4740051543F /* scaryhospital.jpg */,
 				FA2C9E7312E2A4740051543F /* trainarriving.jpg */,
 			);
-			name = Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		FADFD96B12D07086005B5202 /* Resources-iPad */ = {

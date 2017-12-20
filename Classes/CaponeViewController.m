@@ -10,6 +10,9 @@
 #import "credits.h"
 #import "iPadCredits.h"
 #import "CaponeAppDelegate.h"
+
+#import <MediaPlayer/MediaPlayer.h>
+
 #define appDelegate (CaponeAppDelegate *) [[UIApplication sharedApplication] delegate]
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 
@@ -183,7 +186,7 @@ scrollViewPage10, scrollViewPage11, scrollViewPage12;
     }else{
         self.navigationItem.leftBarButtonItem.enabled = YES;
     }
-        self.navigationItem.rightBarButtonItem.enabled = YES;
+    self.navigationItem.rightBarButtonItem.enabled = YES;
     switch (pageNumber) {
         case 0:
             [self.navigationItem setTitle:@"Capone"];
@@ -356,31 +359,28 @@ scrollViewPage10, scrollViewPage11, scrollViewPage12;
  }
  */
 
-
-- (BOOL) canBecomeFirstResponder{ //Allows media buttons
-    return YES;
-}
-
 - (void)remoteControlReceivedWithEvent:(UIEvent *)receivedEvent {
-    if (receivedEvent.type == UIEventTypeRemoteControl) {
+    if(SYSTEM_VERSION_LESS_THAN(@"11.0")) {//Before iOS 11
         if(ignoreMediaKeys == NO){
-            switch (receivedEvent.subtype) {
-                case UIEventSubtypeRemoteControlTogglePlayPause:
-                    [self bPlayPause];
-                    break;
-                case UIEventSubtypeRemoteControlPause:
-                    [self bPlayPause];
-                    break;
-                case UIEventSubtypeRemoteControlPlay:
-                    [self bPlayPause];
-                    break;
-                case UIEventSubtypeRemoteControlNextTrack:
-                    [self swipeLeft];
-                    break;
-                case UIEventSubtypeRemoteControlPreviousTrack:
-                    [self swipeRight];
-                default:
-                    break;
+            if (receivedEvent.type == UIEventTypeRemoteControl) {
+                switch (receivedEvent.subtype) {
+                    case UIEventSubtypeRemoteControlTogglePlayPause:
+                        [self bPlayPause];
+                        break;
+                    case UIEventSubtypeRemoteControlPause:
+                        [self bPlayPause];
+                        break;
+                    case UIEventSubtypeRemoteControlPlay:
+                        [self bPlayPause];
+                        break;
+                    case UIEventSubtypeRemoteControlNextTrack:
+                        [self swipeLeft];
+                        break;
+                    case UIEventSubtypeRemoteControlPreviousTrack:
+                        [self swipeRight];
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -389,8 +389,19 @@ scrollViewPage10, scrollViewPage11, scrollViewPage12;
 
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    if ([self canBecomeFirstResponder])
+        [self becomeFirstResponder];
     [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
-    [self becomeFirstResponder];
+    
+    MPRemoteCommandCenter *remoteCommandCenter = [MPRemoteCommandCenter sharedCommandCenter];
+    
+    [[remoteCommandCenter togglePlayPauseCommand] addTarget:self action:@selector(bPlayPause)];
+    [[remoteCommandCenter nextTrackCommand] addTarget:self action:@selector(swipeLeft)];
+    [[remoteCommandCenter previousTrackCommand] addTarget:self action:@selector(swipeRight)];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
