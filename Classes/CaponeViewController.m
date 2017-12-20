@@ -400,6 +400,8 @@ scrollViewPage10, scrollViewPage11, scrollViewPage12;
     MPRemoteCommandCenter *remoteCommandCenter = [MPRemoteCommandCenter sharedCommandCenter];
     
     [[remoteCommandCenter togglePlayPauseCommand] addTarget:self action:@selector(bPlayPause)];
+    [[remoteCommandCenter playCommand] addTarget:self action:@selector(bPlayPause)];
+    [[remoteCommandCenter pauseCommand] addTarget:self action:@selector(bPlayPause)];
     [[remoteCommandCenter nextTrackCommand] addTarget:self action:@selector(swipeLeft)];
     [[remoteCommandCenter previousTrackCommand] addTarget:self action:@selector(swipeRight)];
 }
