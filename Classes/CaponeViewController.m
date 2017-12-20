@@ -359,34 +359,6 @@ scrollViewPage10, scrollViewPage11, scrollViewPage12;
  }
  */
 
-- (void)remoteControlReceivedWithEvent:(UIEvent *)receivedEvent {
-    if(SYSTEM_VERSION_LESS_THAN(@"11.0")) {//Before iOS 11
-        if(ignoreMediaKeys == NO){
-            if (receivedEvent.type == UIEventTypeRemoteControl) {
-                switch (receivedEvent.subtype) {
-                    case UIEventSubtypeRemoteControlTogglePlayPause:
-                        [self bPlayPause];
-                        break;
-                    case UIEventSubtypeRemoteControlPause:
-                        [self bPlayPause];
-                        break;
-                    case UIEventSubtypeRemoteControlPlay:
-                        [self bPlayPause];
-                        break;
-                    case UIEventSubtypeRemoteControlNextTrack:
-                        [self swipeLeft];
-                        break;
-                    case UIEventSubtypeRemoteControlPreviousTrack:
-                        [self swipeRight];
-                    default:
-                        break;
-                }
-            }
-        }
-    }
-}
-
-
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
