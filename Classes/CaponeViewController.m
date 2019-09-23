@@ -371,11 +371,30 @@ scrollViewPage10, scrollViewPage11, scrollViewPage12;
     
     MPRemoteCommandCenter *remoteCommandCenter = [MPRemoteCommandCenter sharedCommandCenter];
     
-    [[remoteCommandCenter togglePlayPauseCommand] addTarget:self action:@selector(bPlayPause)];
-    [[remoteCommandCenter playCommand] addTarget:self action:@selector(bPlayPause)];
-    [[remoteCommandCenter pauseCommand] addTarget:self action:@selector(bPlayPause)];
-    [[remoteCommandCenter nextTrackCommand] addTarget:self action:@selector(swipeLeft)];
-    [[remoteCommandCenter previousTrackCommand] addTarget:self action:@selector(swipeRight)];
+    [remoteCommandCenter.togglePlayPauseCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
+            [self bPlayPause];
+            return MPRemoteCommandHandlerStatusSuccess;
+    }];
+    
+    [remoteCommandCenter.playCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
+            [self bPlayPause];
+            return MPRemoteCommandHandlerStatusSuccess;
+    }];
+    
+    [remoteCommandCenter.pauseCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
+            [self bPlayPause];
+            return MPRemoteCommandHandlerStatusSuccess;
+    }];
+    
+    [remoteCommandCenter.nextTrackCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
+            [self swipeLeft];
+            return MPRemoteCommandHandlerStatusSuccess;
+    }];
+    
+    [remoteCommandCenter.previousTrackCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
+            [self swipeRight];
+            return MPRemoteCommandHandlerStatusSuccess;
+    }];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
